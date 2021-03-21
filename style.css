@@ -1,0 +1,44 @@
+body {
+    background-color: #666;
+}
+
+.codeview {
+    margin: auto;
+    max-width: 500px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.codeview h2 {
+    margin: 0;
+    text-align: center;
+}
+
+.codeview h3 {
+    margin: 0;
+    text-align: center;
+}
+
+.codeview .license {
+    text-align: center;
+    font-size: smaller;
+}
+
+code {
+    background-color: lightcoral;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+#key {
+    position: relative;
+    left: -10px;
+    width: 100%;
+    padding: 30px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #AEA;
+    word-wrap: break-word;
+}

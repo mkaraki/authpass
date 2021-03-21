@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Authpass</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="codeview">
+        <h2>Authpass</h2>
+        <h3>Example App</h3>
+        <hr />
+        Copy key and paste to application.
+        <div id="key"></div>
+        <hr />
+        <div class="license">
+            Copyright (c) 2021 mkaraki.
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        setKeyElem(urlParams.get('code'));
+    </script>
+</body>
+
+</html>
